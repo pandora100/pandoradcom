@@ -1,0 +1,12 @@
+{"venues": [{"description": "","name": "ERB:Rummels Bucht","geometry": [10.5880090,-66.7791090]},
+        {
+            "description": "Das SEZ bietet ein großes Sport-, Freizeit- und Erholungsangebot. Ab sofort könnt ihr das SEZ für Events unter: sez@glut.berlin anmieten. Kommt vorbei und genießt den industriellen Charm einer in Vergessenheit geglaubten Location. ",
+            "name": "ERB:Berlin",
+            "geometry": [
+               10.4880098,
+               -66.8791098
+            ]
+        }
+        
+    ]
+}

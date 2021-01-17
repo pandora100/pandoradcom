@@ -1,0 +1,197 @@
+.contenedor{
+	background: white;
+
+}
+
+.BannersDCOR3{
+	width: 100%;
+}
+
+
+.leaflet-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+
+
+
+
+.contenedortablas {
+	/*background:blue;*/
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 278px;
+	display: flex;
+
+	
+	
+}
+
+.tmasafuera {
+	margin: 0 auto;
+	width: 67.8%;
+	border-spacing: 2px;
+	border-collapse: separate;
+	box-sizing: border-box;
+	text-indent: 0;
+	display: flex;
+	flex-direction: column;
+	align-items:  stretch;
+	justify-content: flex-end;
+	background: gray;
+	
+}
+
+.titulocajitas {
+	flex: 1 0 100%;
+	font-weight: bold; 
+	font-size: 10.2px;
+	color: black; 
+	font-style: normal; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	background:  #C8E7FD;
+    display: flex;
+	flex-direction: row;
+	justify-content:  center;
+
+	text-align: center;
+	padding: 5px;
+}
+
+.SGITexto {
+	flex: 0 ;
+	display: flex;
+	
+	flex-direction:column;
+	align-items: stretch;
+	background:white;
+}
+.datepick1 {
+	flex: 0 ;  
+	width: 120px;
+	display: flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	padding: 5px;
+	margin-left: 5px;
+}
+.datepick1 input{
+	margin-left: 5px;  
+	width: 120px;
+	
+}
+.datepick2 {
+	flex: 0 ;  
+	width:  50px;
+	display: flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	padding: 5px;
+	margin-left: 5px;
+}
+.datepick2 input{
+	margin-left: 5px ; 
+	width: 120px;
+	
+}
+.barra1 {
+	flex: 1 0 100%;
+	font-weight: bold; 
+	font-size: 10px;
+	color: black; 
+	font-style: normal; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	background:  #C8E7FD;
+
+}
+input {
+	width: 740px;
+}
+.MOVILNETButton {
+	font-weight: bold; 
+	font-size: 10.2px;
+	line-height:  10px;
+	color: black; 
+	font-style: normal; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	background:  #C8E7FD;
+	display: flex;
+	flex-direction:row;
+	align-items:  center;
+	justify-content: flex-end;
+	padding: 2px;
+}
+.MOVILNETinputButton {
+background: blue;
+color: yellow;
+font-weight: bold; 
+}
+.count11container {
+	/*background:blue;*/
+	position: absolute;
+	width: 67.8%;
+	text-align: center;
+	top: 456px;
+	
+	margin-left:200px;
+	background: #C8E7FD;
+	font-weight: bold; 
+	font-size: 10.2px;
+	color: black; 
+	font-style: normal; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	line-height: 62px;
+}
+.miTabla11container {
+	/*background:blue;*/
+	position: absolute;
+	width: 67.8%;
+	text-align: center;
+	top: 518px;
+	display: flex;
+	justify-content: center;
+	margin-left:200px;
+	
+}
+
+.miTabla11container {
+	
+	font-weight: bold; 
+	font-size: 10.2px;
+	color: black; 
+	font-style: normal; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	background-color:  white;
+}
+
+
+
+.table-box {
+    overflow: scroll;
+    height: 30px;
+    width: 40px;
+}
+table {width: 67.8%;}
+ 
+table th {min-width: 62px; padding: 7px;background-color: #ddd;}
+table td {min-width: 62px;}
+ 
+table tr th{position: sticky;left: 0;}
+table tr:nth-child(1) th,table tr:nth-child(2) th{z-index: 1;}
+table tr:nth-child(1) th,table tr:nth-child(1) td  {top:0px;position: sticky;}
+table tr:nth-child(1) td {background-color: #eee;}
+ 
+table tr:nth-child(2) th,table tr:nth-child(2) td{top:34px;position: sticky;}
+table tr:nth-child(2) td {background-color: #eee;}
+
+
+	
+
+table tr:nth-child(1) th {top:0px;position: sticky;}
+ 
+
+th,table tr:nth-child(1) td {top: 0px;position: sticky;}

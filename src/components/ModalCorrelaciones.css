@@ -1,0 +1,146 @@
+/*
+.modal {
+  background-color: rgba(255, 255, 255, .1);
+  backdrop-filter: blur(4px);
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.modal-content {
+  
+  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC); 
+  background: linear-gradient(to right, #2B32B2, #1488CC); 
+  width: 542px;
+  height: 80vh;
+  margin: 10vh auto;
+  position: relative;
+  color: black;
+}
+
+
+
+.title-bar {
+  background: linear-gradient(
+    90deg,
+    #1084d0,
+    #000080
+  );
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  color: white;
+}
+
+.title-bar-text {
+  font-weight: bold;
+  color: yellow;
+  letter-spacing: 0;
+  margin-right: 24px;
+}
+
+.title-bar-img {
+  display: flex;
+  align-items: stretch;
+   min-width:600px;
+}
+
+ .formulario{
+  display: flex;
+  align-items: center;
+  margin: auto;
+ justify-content: center;
+ 
+}
+
+ .titulo {
+    color:black;
+   text-align: center;
+}
+*/
+
+.modal {
+  background-color: rgba(255, 255, 255, .99);
+  
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC); 
+  background: linear-gradient(to right, #2B32B2, #1488CC); 
+  
+  width: 542px;
+  height: 35vh;
+  margin: 10vh auto;
+  position: relative;
+  color: black;
+}
+
+.new-header {
+    height: 42px;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    background: #092178;
+  }
+  .new-header__text {
+    font-weight: 700;
+    font-size: 17px;
+    font-family: 'Noto Sans';
+    color: #fff;
+    flex: 1;
+    color: yellow;
+  }
+  .new-header__img {
+    width: auto;
+    height: 30px;
+    margin-right: 5px;
+  }
+ .new-container-ch {
+    background: orange;
+  }
+  .formulario{
+  
+  display: flex;
+  align-items: center;
+  margin: auto;
+ justify-content: center;
+ 
+}
+
+ .titulo {
+    color:black;
+   text-align: center;
+}
+
+ .footer {
+    height: 75px;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__button {
+    font-size: 12px;
+    padding: 0 8px;
+    line-height: 10px;
+    background: rgb(240, 240, 240);
+    margin-right: 10px;
+    height: 16px;
+    border-radius: 1px;
+    box-shadow: 2px 2px 4px 1px #0005b0, 2px 2px 2px 0px white,
+      inset 0 0 0 1px skyblue, inset 2px -2px skyblue;
+    border: none;
+    outline: none;
+   
+  }

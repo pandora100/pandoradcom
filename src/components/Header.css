@@ -1,0 +1,51 @@
+/*Header.css*/
+.header-title-bar-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 67.8%;
+  background-color: black;
+ }
+.header-title-bar-img {
+
+  background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+}
+.gf-header-container {
+  width: 100%;
+}
+
+.gf-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:  black;
+  margin: 0px 0px;
+  padding: 5px ;
+}
+
+.gf-header-container-left a{
+  font-family:sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 4px ;
+}
+.gf-header-container-right a{
+   font-family:sans-serif;
+   color: red;
+  font-size: 18px;
+  font-weight: 400; 
+  text-decoration: none;
+  padding: 4px ;
+
+}
+
+.gf-header-container-right a + a {
+  margin: 0px 12px;
+}

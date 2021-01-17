@@ -1,0 +1,59 @@
+.modal {
+  background-color: rgba(255, 255, 255, .1);
+  backdrop-filter: blur(4px);
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.modal-content {
+  
+  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 542px;
+  height: 80vh;
+  margin: 10vh auto;
+  position: relative;
+  color: black;
+}
+
+
+
+.title-bar {
+  background: linear-gradient(
+    90deg,
+    #1084d0,
+    #000080
+  );
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  color: white;
+}
+
+.title-bar-text {
+  font-weight: bold;
+  color: yellow;
+  letter-spacing: 0;
+  margin-right: 24px;
+}
+
+.title-bar-img {
+  display: flex;
+  align-items: stretch;
+   min-width:600px;
+}
+
+ .formulario{
+  display: flex;
+  align-items: center;
+  margin: auto;
+ justify-content: center;
+ 
+}
+

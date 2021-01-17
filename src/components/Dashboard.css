@@ -1,0 +1,99 @@
+.Dashboard-box h1,h5{
+    color: yellow;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .Dashboard-box button {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #b80f22;
+  color: #fff;
+  font-size: 18px;
+ 
+  width: 15%;
+  margin: 5px 5px;
+}
+
+.Dashboard-box-header-container  {
+  border: none;
+  outline: none;
+  height: 60px;
+  background: black;
+  color: #fff;
+  font-size: 18px;
+  margin: 0px 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  
+}
+.Dashboard-Div  {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  background: #1488CC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+  display: flex;
+}
+.Dashboard-Div-Barra-Container  {
+  display: flex;
+  flex-direction: row;
+  background:#B8B8B8;
+}
+.Dashboard-Div-Barra  {
+  flex: 1;
+  
+}
+.com__content__container {
+    
+    display: flex;
+    align-items: center;
+    
+    
+  }
+.com__function_bar {
+   display: flex;
+    align-items: flex-start;
+    font-size: 11px;
+    padding: 1px 3px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+  }
+
+  
+.com__content {
+    flex: 1;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-top-width: 0;
+    /*background-color: #f1f1f1;*/
+    /*background-color:#0a0a0a;*/
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    overflow: auto;
+    font-size: 11px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+ .com__content__inner__left {
+    display: flex;
+    height: 100%;
+    overflow: auto;
+     min-width: 200;
+  } 
+.com__content__inner {
+    display: flex;
+    height: 100%;
+    overflow: auto;
+
+  }

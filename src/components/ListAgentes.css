@@ -1,0 +1,33 @@
+/*ListAgentes.css*/
+.miTabla0 {
+    background-color:#ccc;
+    border: 1px solid #333;
+    margin: auto;
+    padding: 20px;
+}
+
+/*Theme the header*/
+.miTabla0 .tabulator-header {
+    background-color:#333;
+    color:yellow;
+}
+
+/*Allow column header names to wrap lines*/
+.miTabla0 .tabulator-header .tabulator-col,
+.miTabla0 .tabulator-header .tabulator-col-row-handle {
+    white-space: normal;
+    background-color:black;
+}
+
+/*Color the table rows*/
+.miTabla0 .tabulator-tableHolder .tabulator-table .tabulator-row{
+    color:#fff;
+    background-color: #666;
+    font-weight: 600;
+}
+
+/*Color even rows*/
+ .miTabla0 .tabulator-tableHolder .tabulator-table .tabulator-row:nth-child(even) {
+    background-color: #444;
+    font-weight: 600;
+}

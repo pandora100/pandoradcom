@@ -1,0 +1,88 @@
+/*Sidebar1.css*/
+ .notif__com__content__left {
+    width: 300px;
+    height: 100px;
+    background: linear-gradient(to bottom, #748aff 0%, #4057d3 100%);
+    padding: 15px;
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+   
+  }
+
+  .notif__com__content__left__header {
+     font-weight: 700;
+  }
+
+  .notif__com__content__left__card {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+   
+    font-weight: 700;
+    max-height: 150px;
+    max-width: 260px;
+  }
+.notif__com__content__left__card__header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 20px;
+     margin-top: 0px;
+    padding-left: 11px;
+    padding-right: 2px;
+    cursor: pointer;
+    width: 260px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background: linear-gradient(
+      to right,
+      rgb(240, 240, 255) 0,
+      rgb(240, 240, 255) 30%,
+      rgb(168, 188, 255) 100%
+    );
+  }
+
+   .notif__com__content__left__card__header__text {
+    font-weight: 700;
+    color: #0c327d;
+    flex: 1;
+    max-width: 260px;
+ 
+  }
+
+   .notif__com__content__left__card__header__img {
+    width: 18px;
+    height: 18px;
+    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+  }
+  
+  .notif__com__content__left__card__content {
+    padding: 5px 10px;
+    background: linear-gradient(
+      to right,
+      rgb(180, 200, 251) 0%,
+      rgb(164, 185, 251) 50%,
+      rgb(180, 200, 251) 100%
+    );
+    background-color: rgba(198, 211, 255, 0.87);
+  }
+
+    .notif__com__content__left__card__row {
+    display: flex;
+    margin-bottom: 2px;
+    font-size: 13px;
+  }
+
+  .notif__com__content__left__card__img {
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    
+  }
+ .notif__com__content__left__card__row__div {
+    background-color: white;
+    color: black;
+    margin-left: 6px;
+    width: 150px;
+    
+  } 
+

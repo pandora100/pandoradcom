@@ -1,0 +1,107 @@
+/*BarraPrincipal1.css*/
+.com__toolbar__bp1 {
+   font-family: sans-serif;
+   margin-top:0px;
+   background:#B8B8B8;
+   display: flex;
+   align-items: center;
+    line-height: 100%;
+    height: 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    flex-shrink: 0;
+   font-size: 12px;
+  }
+
+  /*ESTILOS GENERALES*/
+nav ul {
+   list-style: none;
+   padding: 0;
+
+  }
+nav a {
+   text-decoration:  none;
+  color: black;
+  display: block;
+  padding: 0 5px;
+  
+
+  }
+nav a:hover {
+ background:rgba(0,0,0,0.9);
+  color:white;
+  }
+nav li {
+   line-height: 100%;
+   position: relative;
+
+  }  
+/*temporalmente 
+nav ul ul {
+   display:  none;
+  }
+  */ 
+/*temporalmente*/  
+nav ul ul ul{
+  /* display:  none;*/
+  }
+nav li ul{   
+   position: absolute;
+
+  }  
+nav li ul{   
+   display:  none;
+   
+  } 
+nav li:hover > ul{   
+   display:  block;
+   background:rgba(0,0,0,.9);
+  }  
+
+  /*PRIMER NIVEL*/
+nav > ul{
+   display:  table;
+   width: 100%;
+  
+
+  }  
+nav > ul >li {
+   float: left;
+  }
+  /*SEGUNDO NIVEL*/
+nav   li  li {
+   background:#B8B8B8;
+   padding: 10px; 
+    box-shadow: 2px 2px 1px rgb(100, 100, 100);
+    border: 1px solid gray;
+
+  }
+
+
+nav > ul >li {
+   top: 170%;
+  z-index:100;
+  }
+  nav  li li:hover {
+    
+  background:rgba(0,0,0,.9);
+  color:white;
+  
+  }
+
+  .com__resto__bp1 {
+   font-family: Arial;
+   margin:0%;
+   background:#B8B8B8;
+   display: flex;
+   align-items: center;
+   line-height: 100%;
+   height: 24px;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+   flex-shrink: 0;
+
+  }
+  .com__info__bp1 {
+   font-family: Arial;
+   padding: 4px;
+   display:  table;
+  }
